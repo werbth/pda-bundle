@@ -3,9 +3,9 @@ dbms: "none"
 deploymentBaseName: "entando-pda-plugin"
 healthCheckPath: "/actuator/health"
 securityLevel: lenient
-environmentVariables:
-  - name: ENTANDO_PLUGIN_NAME
-    value: entando-pda-plugin
+ingressPath: entandoPdaPlugin
+parameters:
+  ENTANDO_PLUGIN_NAME: entando-pda-plugin
 roles:
   - "task-list"
   - "task-get"
