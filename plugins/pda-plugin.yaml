@@ -1,4 +1,4 @@
-image: "docker.io/entando/entando-process-driven-plugin:0.0.0-SNAPSHOT-PR-145-9"
+image: "docker.io/entando/entando-process-driven-plugin:latest"
 dbms: "none"
 deploymentBaseName: "entando-pda-plugin"
 healthCheckPath: "/actuator/health"
